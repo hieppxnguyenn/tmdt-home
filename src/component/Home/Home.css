@@ -1,0 +1,41 @@
+.contentStyle {
+    margin: 0;
+    height: 60em;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    width: 100%;
+
+}
+.logo-top {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .ant-row-rtl .logo-top {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  .list-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .card-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc(20% - 10px);
+    margin: 5px;
+  }
+  .img-item {
+    scale: 0.8;
+  }
+  .label-product {
+    margin-left: 80px;
+    width: 50%;
+  }
